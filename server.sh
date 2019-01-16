@@ -1,3 +1,3 @@
 #!/bin/bash
 
-./helper.sh ../server.Server $*
+./helper.sh server.Server $*
