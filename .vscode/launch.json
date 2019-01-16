@@ -1,0 +1,42 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Client",
+            "request": "launch",
+            "mainClass": "client.Client",
+            "projectName": "UserAnalytics"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Server",
+            "request": "launch",
+            "mainClass": "server.Server",
+            "projectName": "UserAnalytics",
+            "args": "8080"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Server",
+            "request": "launch",
+            "mainClass": "fmi.analytics.server.Server",
+            "projectName": "Analyser",
+            "args": "8080"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Client",
+            "request": "launch",
+            "mainClass": "fmi.analytics.client.Client",
+            "projectName": "Analyser",
+            "args": "localhost 8080 sample_logs.csv"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - App",
+            "request": "launch",
+            "mainClass": "app.App",
+            "projectName": "Analyser"
+        }
+    ]
+}
